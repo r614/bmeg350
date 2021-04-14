@@ -97,9 +97,9 @@ class Bezier():
         return curve
 
 
-def generate_random_ndt_motion(height=10, width=10): 
+def generate_random_ndt_motion(length=5, height=10, width=10): 
 	points = []
-	for i in range(5):
+	for i in range(length):
 		points.append( 
 			[
 				random.randrange(0, width),
